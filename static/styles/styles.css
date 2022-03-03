@@ -1,3 +1,4 @@
+/* Live Server: http://127.0.0.1:5500/index.html */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -9,8 +10,7 @@ html,body{
 header{
     display: flex;
     justify-content: space-around;
-    /* margin: 1rem; */
-    padding: 24px;;
+    padding: 48px;;
     color: white;
     background-color: #1F2937;
 }
@@ -25,15 +25,90 @@ ul{
     list-style: none;
 }
 
+section{
+    
+}
+
 .landing{
     display: flex;
     background-color: #1F2937;
+    padding: 5rem 2rem;
+    justify-content: center;
+    gap: 10rem;
+    color: white;
+    height: 100vh;
 }
 
+.landing .left{
+    flex-wrap: wrap;
+}
+
+.landing .left h2{
+    /* flex-wrap: wrap; */
+    padding: 1rem 0;
+    inline-size: 22rem;
+    overflow-wrap: break-word;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.landing .left h6{
+    padding: 1rem 0;
+    inline-size: 26rem;
+    overflow-wrap: break-word;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.landing .left button{
+    margin: 1rem 0;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    color: white;
+}
 .right{
-
+    align-self: flex-start;
 }
-image{
-    max-width: 10%;
-    height: 5rem;
+img{
+    max-width: 20rem;
+    height: 18rem;
+    transform: rotate(90deg);
+}
+
+/* Random Information */
+
+.secrand{
+    padding: 5rem;
+}
+
+section h4{
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+    color: #1F2937;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+}
+.rand{
+    height: 8rem;
+    width: 9rem;
+    border:#1F2937 5px solid;
+    border-radius: 10px;
+}
+
+.rand2{
+    inline-size: 10rem;
+    overflow-wrap: break-word;
+    color: #1F2937;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 5px;
+    line-height: 15px;
 }
